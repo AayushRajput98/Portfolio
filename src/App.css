@@ -3,58 +3,25 @@ h1 {
     font-size: 25px;
 }
 
-h3{
-    text-align: center;
-    text-decoration: underline;
-    text-decoration-color: black; 
+.App {
+    background: #161616 url(/assets/background.jpg) top center;
+    min-height: 500px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .anchor {
     color: orange;
 }
 
-.credits {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: 5px;
+    .anchor:hover, .anchor:focus {
+        color: orange;
+        font-size: 20px;
+        -webkit-transition: all .3s ease-in-out;
+        text-decoration: none;
+    }
 
-}
-
-.anchor:hover {
-    font-size: 25px;
-    -webkit-transition: all .3s ease-in-out;
-    text-decoration: none;
-}
-
-.App {
-    background: #161616 url(/assets/background.jpg) no-repeat top center;
-    background-size: cover !important;
-    min-height: 500px;
-    width: 100%;
-    overflow: hidden;
-}
-
-#home {
-    position: relative;
-    text-align: center;
-    color: white;
-    height: 90vh;
-}
-
-#about {
-    background-color: #f1f1f1;
-    color: black;
-    padding-bottom: 30px;
-}
-
-#education {
-    background-color: #161616;
-    color: white;
-    padding-bottom: 30px;
-    height: 100vh;
-}
-
+/* ======================== Header ======================== */
 
 .menu {
     padding: 0px 10px;
@@ -65,9 +32,7 @@ h3{
 .navbar-dark {
     background-color: #262626;
     color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: relative;
     animation: moveDown 0.5s ease-in-out;
 }
 
@@ -78,6 +43,15 @@ h3{
 .link:hover, .link:focus {
     color: orange;
     text-decoration: none;
+}
+
+/* ======================== Home ======================== */
+
+#home {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 90vh;
 }
 
 .home {
@@ -100,18 +74,34 @@ h3{
     border-radius: 100%;
 }
 
+.credits {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 5px;
+}
+
+/* ======================== About ======================== */
+
+#about {
+    background-color: azure;
+    color: black;
+    padding-bottom: 30px;
+}
+
 .aimage1 {
     margin-top: 20px;
     margin-left: 15px;
 }
 
 .atext1 {
+    
     margin-left: -25px;
     margin-top: 20px;
     align-self: center;
     text-align: center;
     font-size: 16px;
-   margin-right: 10px;
+    margin-right: 10px;
 }
 
 .aimage2 {
@@ -133,39 +123,48 @@ h3{
     border-radius: 10px;
 }
 
-.edu{
+/* ======================== Education ======================== */
+
+#education {
+    color: white;
+    height: 100vh;
+}
+
+.banner {
+    height: inherit;
+    justify-content: center;
+    align-content: center;
+}
+
+#block {
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    color: white;
+}
+
+#block:hover, #block:focus {
+    background-color: white;
+    color: black;
+}
+
+#block img {
+    border-radius: 100%;
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+/* ======================== Skill ======================== */
+
+#skill {
     background-color: azure;
     color: black;
-    border-radius: 30px;
-    margin: 30px 80px 30px 80px;
-    height: 80vh;
-    padding: 30px;
+    padding-bottom: 30px;
+    height: 100vh;
 }
 
-.logo{
-    border-radius: 100%;
-    width: 8%;
-}
-
-#education p {
-    position: relative;
-    margin-top: 30px;
-}
-
-#education .institute {
-    font-size: 35px;
-    font-weight: bold;
-    margin-left: 10px;
-}
-
-#education .duration {
-    position: absolute;
-    right: 0;
-    top: 25%;
-    align-content: center;
-    font-size: 20px;
-
-}
 
 @media screen and (max-width: 1000px) {
     .homeImage {
@@ -179,8 +178,24 @@ h3{
     .anchor:hover {
         font-size: 12px;
     }
-
-    #education .institute {
-        font-size: 16px;
+    
+    .banner{
+        
     }
+
+    #block img{
+        width: 15%;
+    }
+
+    #block {
+        margin: 10px;
+        border-radius: 10px;
+        padding: 10px;
+        color: white;
+    }
+
+    #block h5 {
+        font-size: 12px;
+    }
+
 }

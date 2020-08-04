@@ -13,7 +13,7 @@ class Home extends Component {
                         <h1> I am Aayush Rajput </h1>
                         <h6> and you are visiting my protfolio page </h6>
                     </div>
-                    <div className="credits"> Image: <a className="anchor" href="http://www.freepik.com">Designed by Freepik</a> </div>
+                    <div className="credits"> Image: <a className="anchor" href="http://www.freepik.com" target="_blank">Designed by Freepik</a> </div>
                 </div>
             </div>
             );

@@ -3,6 +3,7 @@ import Header from './HeaderComponent';
 import Home from './HomeComponent';
 import About from './AboutComponent';
 import Education from './EducationComponent';
+import Skill from './SkillComponent';
 
 class MainComponent extends Component {
     render() {
@@ -12,6 +13,7 @@ class MainComponent extends Component {
                 <Home />
                 <About />
                 <Education />
+                <Skill />
             </>
             );
     }

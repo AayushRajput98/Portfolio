@@ -4,6 +4,7 @@ import Home from './HomeComponent';
 import About from './AboutComponent';
 import Education from './EducationComponent';
 import Skill from './SkillComponent';
+import Project from './ProjectComponent';
 
 class MainComponent extends Component {
     render() {
@@ -14,6 +15,7 @@ class MainComponent extends Component {
                 <About />
                 <Education />
                 <Skill />
+                <Project />
             </>
             );
     }

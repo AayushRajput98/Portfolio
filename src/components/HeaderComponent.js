@@ -27,9 +27,8 @@ class Header extends Component {
                         <NavItem className="menu"> <a className='link' href="#home"> Home </a></NavItem>
                         <NavItem className="menu"> <a className='link' href="#about"> About </a></NavItem>
                         <NavItem className="menu"> <a className='link' href="#education"> Education </a></NavItem>
-                        <NavItem className="menu"> <a className='link' href="#about"> Skill </a></NavItem>
-                        <NavItem className="menu"> <a className='link' href="#about"> Projects </a></NavItem>
-                        <NavItem className="menu"> <a className='link' href="#about"> Hobby </a></NavItem>
+                        <NavItem className="menu"> <a className='link' href="#skill"> Skill </a></NavItem>
+                        <NavItem className="menu"> <a className='link' href="#projects"> Projects </a></NavItem>
                         <NavItem className="menu"> <a className='link' href="#contact"> Contact </a></NavItem>
                     </Nav>
                 </Collapse>

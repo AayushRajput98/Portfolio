@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\public",
+    "\\public\\assets",
+    "\\public\\assets\\Slider",
+    "\\public\\assets\\Tools",
+    "\\src",
+    "\\src\\components",
+    "\\src\\hooks",
+    "\\src\\shared"
+  ],
+  "SelectedNode": "\\src\\components\\ContactComponent.js",
+  "PreviewInSolutionExplorer": false
+}
